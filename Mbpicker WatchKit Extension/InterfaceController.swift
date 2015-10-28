@@ -12,10 +12,25 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet var pickerout: WKInterfacePicker!
+    
+    @IBAction func whichpressed()
+    {
+    }
+    
     override func awakeWithContext(context: AnyObject?) {
-        super.awakeWithContext(context)
         
-        // Configure interface objects here.
+        super.awakeWithContext(context)
+        var thePickerItems = [WKPickerItem]()
+        let tablevals = ["\(1,...1000)"];
+        for (var i = 0 ; i < tablevals.count; i++)
+        {
+            thePickerItems.append(WKPickerItem())
+            thePickerItems[i].title =  tablevals[i]
+            
+        }
+        self.pickerout.setItems(thePickerItems)
+    
     }
 
     override func willActivate() {
