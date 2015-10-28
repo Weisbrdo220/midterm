@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		545B81EA1BE15BCB00119F70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545B81E91BE15BCB00119F70 /* AppDelegate.swift */; };
+		545B81EC1BE15BCB00119F70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545B81EB1BE15BCB00119F70 /* ViewController.swift */; };
+		545B81EF1BE15BCB00119F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545B81ED1BE15BCB00119F70 /* Main.storyboard */; };
+		545B81F11BE15BCB00119F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545B81F01BE15BCB00119F70 /* Assets.xcassets */; };
+		545B81F41BE15BCB00119F70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545B81F21BE15BCB00119F70 /* LaunchScreen.storyboard */; };
+		545B81F91BE15BCC00119F70 /* Mbpicker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 545B81F81BE15BCC00119F70 /* Mbpicker WatchKit App.app */; };
+		545B81FF1BE15BCC00119F70 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545B81FD1BE15BCC00119F70 /* Interface.storyboard */; };
+		545B82011BE15BCC00119F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545B82001BE15BCC00119F70 /* Assets.xcassets */; };
+		545B82081BE15BCC00119F70 /* Mbpicker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 545B82071BE15BCC00119F70 /* Mbpicker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		545B820F1BE15BCC00119F70 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545B820E1BE15BCC00119F70 /* InterfaceController.swift */; };
+		545B82111BE15BCC00119F70 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545B82101BE15BCC00119F70 /* ExtensionDelegate.swift */; };
+		545B82131BE15BCC00119F70 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545B82121BE15BCC00119F70 /* NotificationController.swift */; };
+		545B82151BE15BCC00119F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545B82141BE15BCC00119F70 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		545B81FA1BE15BCC00119F70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 545B81DE1BE15BCB00119F70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 545B81F71BE15BCC00119F70;
+			remoteInfo = "Mbpicker WatchKit App";
+		};
+		545B82091BE15BCC00119F70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 545B81DE1BE15BCB00119F70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 545B82061BE15BCC00119F70;
+			remoteInfo = "Mbpicker WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		545B821C1BE15BCC00119F70 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				545B82081BE15BCC00119F70 /* Mbpicker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545B82201BE15BCC00119F70 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				545B81F91BE15BCC00119F70 /* Mbpicker WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		545B81E61BE15BCB00119F70 /* Mbpicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mbpicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		545B81E91BE15BCB00119F70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		545B81EB1BE15BCB00119F70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		545B81EE1BE15BCB00119F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		545B81F01BE15BCB00119F70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		545B81F31BE15BCB00119F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		545B81F51BE15BCB00119F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		545B81F81BE15BCC00119F70 /* Mbpicker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mbpicker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		545B81FE1BE15BCC00119F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		545B82001BE15BCC00119F70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		545B82021BE15BCC00119F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		545B82071BE15BCC00119F70 /* Mbpicker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Mbpicker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		545B820D1BE15BCC00119F70 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		545B820E1BE15BCC00119F70 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		545B82101BE15BCC00119F70 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		545B82121BE15BCC00119F70 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		545B82141BE15BCC00119F70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		545B82161BE15BCC00119F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		545B81E31BE15BCB00119F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545B82041BE15BCC00119F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		545B81DD1BE15BCB00119F70 = {
+			isa = PBXGroup;
+			children = (
+				545B81E81BE15BCB00119F70 /* Mbpicker */,
+				545B81FC1BE15BCC00119F70 /* Mbpicker WatchKit App */,
+				545B820B1BE15BCC00119F70 /* Mbpicker WatchKit Extension */,
+				545B81E71BE15BCB00119F70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		545B81E71BE15BCB00119F70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				545B81E61BE15BCB00119F70 /* Mbpicker.app */,
+				545B81F81BE15BCC00119F70 /* Mbpicker WatchKit App.app */,
+				545B82071BE15BCC00119F70 /* Mbpicker WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		545B81E81BE15BCB00119F70 /* Mbpicker */ = {
+			isa = PBXGroup;
+			children = (
+				545B81E91BE15BCB00119F70 /* AppDelegate.swift */,
+				545B81EB1BE15BCB00119F70 /* ViewController.swift */,
+				545B81ED1BE15BCB00119F70 /* Main.storyboard */,
+				545B81F01BE15BCB00119F70 /* Assets.xcassets */,
+				545B81F21BE15BCB00119F70 /* LaunchScreen.storyboard */,
+				545B81F51BE15BCB00119F70 /* Info.plist */,
+			);
+			path = Mbpicker;
+			sourceTree = "<group>";
+		};
+		545B81FC1BE15BCC00119F70 /* Mbpicker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				545B81FD1BE15BCC00119F70 /* Interface.storyboard */,
+				545B82001BE15BCC00119F70 /* Assets.xcassets */,
+				545B82021BE15BCC00119F70 /* Info.plist */,
+			);
+			path = "Mbpicker WatchKit App";
+			sourceTree = "<group>";
+		};
+		545B820B1BE15BCC00119F70 /* Mbpicker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				545B820E1BE15BCC00119F70 /* InterfaceController.swift */,
+				545B82101BE15BCC00119F70 /* ExtensionDelegate.swift */,
+				545B82121BE15BCC00119F70 /* NotificationController.swift */,
+				545B82141BE15BCC00119F70 /* Assets.xcassets */,
+				545B82161BE15BCC00119F70 /* Info.plist */,
+				545B820C1BE15BCC00119F70 /* Supporting Files */,
+			);
+			path = "Mbpicker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		545B820C1BE15BCC00119F70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				545B820D1BE15BCC00119F70 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		545B81E51BE15BCB00119F70 /* Mbpicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 545B82211BE15BCC00119F70 /* Build configuration list for PBXNativeTarget "Mbpicker" */;
+			buildPhases = (
+				545B81E21BE15BCB00119F70 /* Sources */,
+				545B81E31BE15BCB00119F70 /* Frameworks */,
+				545B81E41BE15BCB00119F70 /* Resources */,
+				545B82201BE15BCC00119F70 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				545B81FB1BE15BCC00119F70 /* PBXTargetDependency */,
+			);
+			name = Mbpicker;
+			productName = Mbpicker;
+			productReference = 545B81E61BE15BCB00119F70 /* Mbpicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		545B81F71BE15BCC00119F70 /* Mbpicker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 545B821D1BE15BCC00119F70 /* Build configuration list for PBXNativeTarget "Mbpicker WatchKit App" */;
+			buildPhases = (
+				545B81F61BE15BCC00119F70 /* Resources */,
+				545B821C1BE15BCC00119F70 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				545B820A1BE15BCC00119F70 /* PBXTargetDependency */,
+			);
+			name = "Mbpicker WatchKit App";
+			productName = "Mbpicker WatchKit App";
+			productReference = 545B81F81BE15BCC00119F70 /* Mbpicker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		545B82061BE15BCC00119F70 /* Mbpicker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 545B82191BE15BCC00119F70 /* Build configuration list for PBXNativeTarget "Mbpicker WatchKit Extension" */;
+			buildPhases = (
+				545B82031BE15BCC00119F70 /* Sources */,
+				545B82041BE15BCC00119F70 /* Frameworks */,
+				545B82051BE15BCC00119F70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mbpicker WatchKit Extension";
+			productName = "Mbpicker WatchKit Extension";
+			productReference = 545B82071BE15BCC00119F70 /* Mbpicker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		545B81DE1BE15BCB00119F70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Weisbrod, Evan R";
+				TargetAttributes = {
+					545B81E51BE15BCB00119F70 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					545B81F71BE15BCC00119F70 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					545B82061BE15BCC00119F70 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 545B81E11BE15BCB00119F70 /* Build configuration list for PBXProject "Mbpicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 545B81DD1BE15BCB00119F70;
+			productRefGroup = 545B81E71BE15BCB00119F70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				545B81E51BE15BCB00119F70 /* Mbpicker */,
+				545B81F71BE15BCC00119F70 /* Mbpicker WatchKit App */,
+				545B82061BE15BCC00119F70 /* Mbpicker WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		545B81E41BE15BCB00119F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545B81F41BE15BCB00119F70 /* LaunchScreen.storyboard in Resources */,
+				545B81F11BE15BCB00119F70 /* Assets.xcassets in Resources */,
+				545B81EF1BE15BCB00119F70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545B81F61BE15BCC00119F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545B82011BE15BCC00119F70 /* Assets.xcassets in Resources */,
+				545B81FF1BE15BCC00119F70 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545B82051BE15BCC00119F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545B82151BE15BCC00119F70 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		545B81E21BE15BCB00119F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545B81EC1BE15BCB00119F70 /* ViewController.swift in Sources */,
+				545B81EA1BE15BCB00119F70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545B82031BE15BCC00119F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545B82131BE15BCC00119F70 /* NotificationController.swift in Sources */,
+				545B82111BE15BCC00119F70 /* ExtensionDelegate.swift in Sources */,
+				545B820F1BE15BCC00119F70 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		545B81FB1BE15BCC00119F70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 545B81F71BE15BCC00119F70 /* Mbpicker WatchKit App */;
+			targetProxy = 545B81FA1BE15BCC00119F70 /* PBXContainerItemProxy */;
+		};
+		545B820A1BE15BCC00119F70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 545B82061BE15BCC00119F70 /* Mbpicker WatchKit Extension */;
+			targetProxy = 545B82091BE15BCC00119F70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		545B81ED1BE15BCB00119F70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				545B81EE1BE15BCB00119F70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		545B81F21BE15BCB00119F70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				545B81F31BE15BCB00119F70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		545B81FD1BE15BCC00119F70 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				545B81FE1BE15BCC00119F70 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		545B82171BE15BCC00119F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		545B82181BE15BCC00119F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		545B821A1BE15BCC00119F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Mbpicker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = evan.Mbpicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		545B821B1BE15BCC00119F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Mbpicker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = evan.Mbpicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		545B821E1BE15BCC00119F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Mbpicker_WatchKit_Extension;
+				INFOPLIST_FILE = "Mbpicker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = evan.Mbpicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		545B821F1BE15BCC00119F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Mbpicker_WatchKit_Extension;
+				INFOPLIST_FILE = "Mbpicker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = evan.Mbpicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		545B82221BE15BCC00119F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mbpicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = evan.Mbpicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		545B82231BE15BCC00119F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mbpicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = evan.Mbpicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		545B81E11BE15BCB00119F70 /* Build configuration list for PBXProject "Mbpicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545B82171BE15BCC00119F70 /* Debug */,
+				545B82181BE15BCC00119F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		545B82191BE15BCC00119F70 /* Build configuration list for PBXNativeTarget "Mbpicker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545B821A1BE15BCC00119F70 /* Debug */,
+				545B821B1BE15BCC00119F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		545B821D1BE15BCC00119F70 /* Build configuration list for PBXNativeTarget "Mbpicker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545B821E1BE15BCC00119F70 /* Debug */,
+				545B821F1BE15BCC00119F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		545B82211BE15BCC00119F70 /* Build configuration list for PBXNativeTarget "Mbpicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545B82221BE15BCC00119F70 /* Debug */,
+				545B82231BE15BCC00119F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 545B81DE1BE15BCB00119F70 /* Project object */;
+}
